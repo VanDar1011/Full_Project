@@ -139,7 +139,7 @@ void grantAccess() { // ham mo cua
   pwd = ""; // set pwd ve rong de nhap pass lai
 
   unsigned long startMillis = millis();
-  while (millis() - startMillis < 50) {
+  while (millis() - startMillis < 5000) {
     // Chờ 50ms
   }
   //-------------
